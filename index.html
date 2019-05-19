@@ -7,31 +7,41 @@
     <link href="css/bootstrap.css" type="text/css" rel="stylesheet"/>
 
 </head>
-<body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Hand-Aid</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+<body class="bodycolor">
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="exercise.html">exercise</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="diet.html">diet</a>
-            </li>
-        </ul>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Hand-Aid</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="diet.html">Diet</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="exercise.html">Exercise</a>
+                </li>
+            </ul>
 
-    </div>
-</nav>
+        </div>
+    </nav>
+        <div class="container">
+            <div width="800px" style="margin:auto;max-width:800px;"><img width="800px" src="Images/logo.PNG"></div>
+
+<form style="width:300px;margin:auto;">
+    <input id="inputemail" class="form-control" type="email" placeholder="Email">
+    <input style="margin-top:10px;margin-bottom:10px;" id="inputpassword" class="form-control" type="password" placeholder="password">
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+
+</form>
+        </div>
 
 
-<img alt="whoops" src="Images/logo.PNG">
+
 
 
 </body>

@@ -1,3 +1,25 @@
-body{
+.bodycolor{
     background-color:#DE3F51;
+
+}
+
+table{
+    background-color:#DE3F51;
+}
+
+.imgholder{
+    margin:auto;
+    width:50%;
+}
+
+#table4exercise{
+    width:1000px;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+}
+td{
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
 }
