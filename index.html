@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link href="css/thesheet.css" type="text/css" rel="stylesheet"/>
+   <!--<link href="css/thesheet.css" type="text/css" rel="stylesheet"/> -->
     <link href="css/bootstrap.css" type="text/css" rel="stylesheet"/>
 
 </head>
-<body class="bodycolor">
+<body class="bodycolor" >
 
+<div style="height:55px;">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <a class="navbar-brand" href="#">Hand-Aid</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,31 +17,35 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="diet.html">Diet</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item ">
                     <a class="nav-link" href="exercise.html">Exercise</a>
                 </li>
             </ul>
 
         </div>
     </nav>
-        <div class="container">
-            <div width="800px" style="margin:auto;max-width:800px;"><img width="800px" src="Images/logo.PNG"></div>
-
-<form style="width:300px;margin:auto;">
-    <input id="inputemail" class="form-control" type="email" placeholder="Email">
-    <input style="margin-top:10px;margin-bottom:10px;" id="inputpassword" class="form-control" type="password" placeholder="password">
-    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-
-</form>
-        </div>
-
-
+</div>
+<div class="container-fluid">
+<div class="row" style="height:1000px">
+    <div class="col-2 hoverthing" style="background-color:grey;">
+        <a href="exercise.html"><img style="margin-top:150%;" class="chooserboy" src="Images/nigrito.PNG"></a>
+    </div>
+    <div class="col-8" style="background-color:#DE3F51;">
+        <img class="d-block mx-auto" alt="wrong" src="Images/logo.PNG">
+        <img class="d-block mx-auto" alt="wrong" src="Images/Handaid_temp.bmp">
+        <a href="index.html"><div class="btn btn-lg btn-primary btn-block" style="margin-right:auto;margin-left:auto;margin-top:50px;margin-bottom:50px;width:500px;height:50px">buy now</div></a>
+    </div>
+    <div class="col-2 hoverthing" style="background-color:grey;" >
+        <a href="diet.html"><img style="margin-top:150%;" src="Images/food.PNG"></a>
+    </div>
+</div>
+</div>
 
 
 

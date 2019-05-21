@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/thesheet.css" type="text/css" rel="stylesheet"/>
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet"/>
+
+</head>
+<body class="bodycolor">
+<div style="height:1000px;background-color:#DE3F51" class="container">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Hand-Aid</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-itema">
+                    <a class="nav-link" href="diet.html">Diet</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="exercise.html">Exercise</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <table id="table4exercise" style="margin-top:80px;width:1000px;">
+        <tr>
+            <td>
+                <p>height</p>
+            </td>
+            <td>
+                <p id="height">yyy</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>weight</p>
+            </td>
+            <td>
+                <p id="weight">yyy</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>temperature</p>
+            </td>
+            <td>
+                <p id="temperature">yyy</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>heart rate</p>
+            </td>
+            <td>
+                <p id="heart rate">yyy</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>body fat percentage</p>
+            </td>
+            <td>
+                <p id="bodyfatpercentage">yyy</p>
+            </td>
+        </tr>
+
+    </table>
+
+</div>
+
+
+
+
+<script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+
+<script>
+
+    const config = {
+        apiKey: "AIzaSyAiKFLux5fO7v_EtBYKu22LuG9XYVOEUao",
+        authDomain: "hand-aid.firebaseapp.com",
+        databaseURL: "https://hand-aid.firebaseio.com",
+        projectId: "hand-aid",
+        storageBucket: "hand-aid.appspot.com",
+        messagingSenderId: "226796269026",
+        appId: "1:226796269026:web:0e1e7636484a72ee"
+    };
+    firebase.initializeApp(config);
+
+
+    var dbRefheight = firebase.database().ref().child('user/height');
+    dbRefheight.on('value', function(DataSnapshot){document.getElementById('height').innerHTML = DataSnapshot.val();});
+
+    var dbRefweight = firebase.database().ref().child('user/weight');
+    dbRefweight.on('value', function(DataSnapshot){document.getElementById('weight').innerHTML = DataSnapshot.val();});
+
+    var dbReftemperature = firebase.database().ref().child('user/temperature');
+    dbReftemperature.on('value', function(DataSnapshot){document.getElementById('temperature').innerHTML = DataSnapshot.val();});
+
+    var dbRefbodyfatpercentage = firebase.database().ref().child('user/body fat percentage');
+    dbRefbodyfatpercentage.on('value', function(DataSnapshot){document.getElementById('bodyfatpercentage').innerHTML = DataSnapshot.val();});
+
+    var dbRefheartrate = firebase.database().ref().child('user/heart rate');
+    dbRefheartrate.on('value', function(DataSnapshot){document.getElementById('heart rate').innerHTML = DataSnapshot.val();});
+
+
+    /*
+    // Initialize Firebase
+
+
+
+
+
+
+
+    */
+</script>
+</body>
+</html>
