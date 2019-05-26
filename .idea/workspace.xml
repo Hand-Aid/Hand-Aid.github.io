@@ -4,11 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/exercise.html" description="&lt;body&gt;&#10;&#10;&lt;/body&gt;" line="6" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b31be4f2-3b07-4f75-9335-6b6fac9102c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diag.html" beforeDir="false" afterPath="$PROJECT_DIR$/diag.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diet.html" beforeDir="false" afterPath="$PROJECT_DIR$/diet.html" afterDir="false" />
-    </list>
+    <list default="true" id="b31be4f2-3b07-4f75-9335-6b6fac9102c6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,10 +142,11 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -191,7 +188,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../tempo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AadhavSivakumar.github.io" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -222,15 +219,15 @@
       <option name="presentableId" value="Default" />
       <updated>1558212677895</updated>
       <workItem from="1558212678976" duration="15166000" />
-      <workItem from="1558386113870" duration="22391000" />
+      <workItem from="1558386113870" duration="22401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37557000" />
+    <option name="totallyTimeSpent" value="37567000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
